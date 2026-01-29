@@ -2,7 +2,6 @@
     --primary-color: blue;
     --secondary-color: darkred;
     --accent-one: darkblue;
-    --accent-two: maroon;
     --heading-font: serif;
     --body-font: sans-serif;
 }
@@ -146,6 +145,7 @@ footer {
     align-items: center;
     background-color: var(--accent-one);
     width: 100%;
+    color: white;
 }
 
 footer p {
