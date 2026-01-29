@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #39a8c5;
-    --secondary-color: #d78f4b;
-    --accent-one: #0a5e98;
-    --accent-two: #f6b26b;
+    --primary-color: lightblue;
+    --secondary-color: darkred;
+    --accent-one: darkblue;
+    --accent-two: maroon;
     --heading-font: serif;
     --body-font: sans-serif;
 }
@@ -144,10 +144,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: var(--accent-two);
     width: 100%;
 }
 
 footer p {
     margin: auto;
+    color: white;
 }
