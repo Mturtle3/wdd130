@@ -144,7 +144,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--accent-two);
+    background-color: var(--accent-one);
     width: 100%;
 }
 
