@@ -190,7 +190,6 @@ footer p {
 
 .message-purpose p {
     grid-row: 1 / span 3;
-    /* span all radio rows */
 }
 
 .message-purpose > div {
