@@ -120,14 +120,16 @@ header nav a {
     text-align: left;
 }
 
-.adventure div {
+.adventure div,
+.serve div {
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 20px;
 }
 
-.adventure figure {
+.adventure figure,
+.serve figure {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,7 +137,11 @@ header nav a {
     width: 100px;
 }
 
-.adventure figcaption {
+.serve div {
+    justify-content: space-evenly;
+}
+
+.adventure figcaption .serve figcaption {
     margin-top: 5px;
 }
 
@@ -151,4 +157,59 @@ footer {
 footer p {
     margin: auto;
     color: white;
+}
+
+.contact-info p {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    margin: 0;
+}
+
+.get-in-touch {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.message-purpose {
+    display: grid;
+    grid-template-columns: 120px auto;
+    align-items: center;
+}
+
+.message-purpose legend {
+    grid-row: 1 / span 3;
+    /* span all radio rows */
+}
+
+.message-purpose > div {
+    margin-bottom: 6px;
+}
+
+button {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}
+
+.message-purpose div {
+    display: flex;
+    width: 1rem;
+}
+
+form div {
+    display: flex;
+    gap: 10px;
+    padding: 2px;
+}
+
+.checkbox input {
+    width: 1rem;
 }

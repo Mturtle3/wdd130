@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="A webpage that provides conact information for a white water rafting company called RapidRush Rafting">
+    <meta name="author" content="Mark Nielsen">
+    <title>Contact Us RapidRush Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/company-logo.jpeg" alt="Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Rapid Rush Rafting</h2>
+            <div>
+                <p>123 main River Sreet</p>
+                <p>Kolob California</p>
+                <p>+1 999 999 9999</p>
+                <p>info@rapidrush.com</p>
+            </div>
+        </section>
+        <section class="get-in-touch">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20887.590043650645!2d-119.72905903683787!3d38.90205661693299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1770406593038!5m2!1sen!2sus"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="First Last">
+                </div>
+                <div>
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail"
+                      placeholder="johndoe@example.com">
+                </div>
+                <div class="message-purpose">
+                    <legend>Message Purpose</legend>
+                    <div>
+                        <input type="radio" id="general-inquiry" name="purpose" value="1">
+                        <label for="general-inquiry">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation-question" name="purpose" value="2">
+                        <label for="reservation-question">Reservation question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="website-suggestion" name="purpose" value="3">
+                        <label for="website-suggestion">Website Suggestion</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea id="message" name="message" rows="3"
+                      placeholder="Type here"></textarea>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please Subscribe to the monthly newsletter</label>
+                </div>
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+        <section class="serve">
+            <h2>We Are Here to Serve You</h2>
+            <div>
+                <figure>
+                    <img src="images/adventure-one.jpg" alt="A rafting adventure image."
+                      width="100">
+                    <figcaption>Adventure Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure-two.jpg" alt="A second rafting adventure image."
+                      width="100">
+                    <figcaption>Saftey Leader</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure-three.jpg" alt="A third rafting adventure image."
+                      width="100">
+                    <figcaption>Event Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©2026 - RapidRsuh Rafting - Mark Nielsen</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook-square.svg" alt="Facebook Icon" width="40">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram-square.svg" alt="Instagram Icon" width="40">
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="images/youtube.png" alt="Youtube Icon" width="40">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
